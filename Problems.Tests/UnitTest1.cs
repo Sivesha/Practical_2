@@ -22,6 +22,19 @@ namespace Tests
           Assert.AreEqual("22,5:what ... did you say??",result3);
         
         }
+        // public void Test2()
+        // {
+        //    Program p=new Program();
+        //   string result= p.Prefix("");
+        //   Assert.AreEqual("0,0:",result);
         
+        // }
+        // public void Test3()
+        // {
+        //    Program p=new Program();
+        //   string result= p.Prefix("what ... did you say??");
+        //   Assert.AreEqual("27,5:what ... did you say??",result);
+        
+        // }
     }
 }
