@@ -1,4 +1,5 @@
 ﻿using System;
+using Problems;
 
 namespace Problems
 {
@@ -8,17 +9,17 @@ namespace Problems
         {
             Console.WriteLine("Hello World!");
         }
-        string Prefix(string input)
+       public string Prefix(string input)
         {
             int length=0; int numWords=0;
-            if (input== null)
+            if (input=="")
             {
                 return ("0,0:");
             }
 
             string [] arrInput= input.Split();
-            length=arrInput.Length;
-            numWords= arrInput.Length;
+            length=input.Length;
+            numWords= arrInput.Length ;
 
             foreach (string word in arrInput)
             {
