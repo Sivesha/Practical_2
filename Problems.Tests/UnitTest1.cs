@@ -30,7 +30,7 @@ namespace Tests
           Assert.AreEqual("13,2:see sharp..?!",result5);
 
           string result6= p.Prefix(" hi ..Hello");
-          Assert.AreEqual("11,2: hi ..Hello",result6);
+          Assert.AreEqual("11,3: hi ..Hello",result6);
         
         }
         // public void Test2()
