@@ -27,7 +27,7 @@ namespace Tests
           Assert.AreEqual("10,3:my name is",result4);
 
           string result5= p.Prefix("see sharp..?!");
-          Assert.AreEqual("14,2:see sharp..?!",result5);
+          Assert.AreEqual("13,2:see sharp..?!",result5);
 
           string result6= p.Prefix(" hi ..Hello");
           Assert.AreEqual("11,2: hi ..Hello",result6);
